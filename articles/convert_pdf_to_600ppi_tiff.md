@@ -1,13 +1,13 @@
 # Convert PDF to 600ppi TIFF
 
-Just like PhotoShop, Gimp can convert back-and-forth between different file formats. In this tutorial, we'll convert a PDF file (with two pages), to be two different TIFF images (with 600ppi).
+Just like PhotoShop, Gimp can convert back-and-forth between different file formats. In this tutorial, we'll convert a PDF file (with two pages), to be two separate TIFF images (with 600ppi).
 
 
 ## Installation
 
-Gimp is a free software across all three major Operating System: Windows, Mac, and Linux. In this tutorial we'll use Windows for demo, but the same steps can be shared across Mac and Linux users (with minor difference).
+Gimp is a free software across all three major Operating System: Windows, Mac, and Linux. In this tutorial we'll use Windows for demo, but the same steps can be shared across Mac and Linux users (with trivial difference).
 
-Gimp can be downloaded here: https://www.gimp.org/downloads/. Simply download it for your specific OS, and use the installer to install. After installation complete, open the Gimp app. Notice that the "first time open" might take a few minutes, because it'll query the available plugins and install them. Also make sure you have internet connection when opening it.
+Gimp can be downloaded here: https://www.gimp.org/downloads/. Simply download the installer for your specific OS, and click to install. After installation complete, open the Gimp app. Notice that the "first time open" might take a few minutes, because it'll query the available plugins and install them. Also make sure you have internet connection.
 
 
 ## Step-to-step Instructions
@@ -15,6 +15,7 @@ Gimp can be downloaded here: https://www.gimp.org/downloads/. Simply download it
 The following are the steps for the pdf-tiff conversion:
 
 ### Import pdf file with 600ppi
+
 We will use this [sample_pdf](../assets/sample_pdf.pdf) to illustrate the steps.
 1. Open Gimp, click `File -> Open`, then navigate to the sample_pdf.pdf to open it.   
     <p float="left">
@@ -35,8 +36,9 @@ We will use this [sample_pdf](../assets/sample_pdf.pdf) to illustrate the steps.
     <div style="clear: both;"></div>
 
 ### Scale Image
+
 After import, the Gimp project will have two images opened in two tabs (corresponding to PDF page #1 and page #2). You may have more tabs if you have more pages. The handling for each page/image is exactly the same:
-1. Select a image (you do from switch tab), navigate `Image -> Scale Image`, after click you'll see the following option
+1. Select an image (you can do it by click tabs on the top), navigate `Image -> Scale Image`, after click you'll see the following option
     <p float="left">
     <img src="../assets/convert_pdf_to_600ppi_tiff/scale_image_before.jpg" alt="scale_image_before" width="800" />
     </p>
@@ -49,6 +51,7 @@ After import, the Gimp project will have two images opened in two tabs (correspo
     <div style="clear: both;"></div>
 
 ### Export as TIFF Image
+
 After finish scaling the image, we need to export it as TIFF format.
 1. Click `File -> Export As`, a "Export Image" window will open. The default name is from the original pdf file, which is `sample_pdf.pdf`, change it to any preferred name end with `.tiff`, for example `page1.tiff`
     <p float="left">
@@ -65,5 +68,6 @@ After finish scaling the image, we need to export it as TIFF format.
 3. Save the result TIFF file to your desired location
 
 ### Repeat the Scale/Export steps
+
 Repeat "Scale Image" and "Export as TIFF Image" for each of the pages in the PDF (corresponding to image tabs in the Gimp). Then you're all set.
 Here's the result from the [sample_pdf](../assets/sample_pdf.pdf): [page1.tiff](../assets/convert_pdf_to_600ppi_tiff/page1.tiff) and [page2.tiff](../assets/convert_pdf_to_600ppi_tiff/page1.tiff).
