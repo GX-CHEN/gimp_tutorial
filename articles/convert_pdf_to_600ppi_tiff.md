@@ -16,13 +16,22 @@ The following are the step to step instructions for the conversion steps:
 ### Import pdf file with 600ppi
 We will use this [sample_pdf](../assets/sample_pdf.pdf) to illustrate the steps.
 1. Open Gimp, `File -> Open` then navigate to the sample_pdf.pdf to open it.
+   
+<p float="left">
+<img src="../assets/convert_pdf_to_600ppi_tiff/import_step_1.jpg" alt="import_step1" width="600" />
+</p>
+<div style="clear: both;"></div>
+
 2. A window will prompt with the import options, like the follow picture. Current *Resolution* is `100 pixel/inch`, *Width* is `850px`, *Height* is `1100px`.
+<p float="left">
+<img src="../assets/convert_pdf_to_600ppi_tiff/import_step_2.jpg" alt="import_step2" width="360" />
+</p>
+<div style="clear: both;"></div>
+
 3. Update the resolution to be 600 pixel/inch, notice that *Width* and *Height* will automatically change with the Resolution, to become `5100px` and `6600px`, leave these values for now. Also update the `Open page as` field to be from `Layers` to `Images`. Then click *Import* button.
 
 <p float="left">
-<img src="../assets/convert_pdf_to_600ppi_tiff/import_step_1.jpg" alt="import_step1" width="260" />
-<img src="../assets/convert_pdf_to_600ppi_tiff/import_step_2.jpg" alt="import_step2" width="260" />
-<img src="../assets/convert_pdf_to_600ppi_tiff/import_step_3.jpg" alt="import_step3" width="260" />
+<img src="../assets/convert_pdf_to_600ppi_tiff/import_step_3.jpg" alt="import_step3" width="360" />
 </p>
 <div style="clear: both;"></div>
 
