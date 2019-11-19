@@ -19,6 +19,12 @@ We will use this [sample_pdf](../assets/sample_pdf.pdf) to illustrate the steps.
 2. A window will prompt with the import options, like the follow picture. Current *Resolution* is `100 pixel/inch`, *Width* is `850px`, *Height* is `1100px`.
 3. Update the resolution to be 600 pixel/inch, notice that *Width* and *Height* will automatically change with the Resolution, to become `5100px` and `6600px`, leave these values for now. Also update the `Open page as` field to be from `Layers` to `Images`. Then click *Import* button.
 
+<p float="left">
+<img src="../assets/convert_pdf_to_600ppi_tiff/import_step1.jpg" alt="import_step1" width="260" />
+<img src="../assets/convert_pdf_to_600ppi_tiff/import_step2.jpg" alt="import_step2" width="260" />
+<img src="../assets/convert_pdf_to_600ppi_tiff/import_step3.jpg" alt="import_step3" width="260" />
+</p>
+<div style="clear: both;"></div>
 
 ### Scale Image
 After import, the project will have two images opened in two tabs (corresponding to PDF page #1 and page #2). You may have more tabs open if you have more pages. The handling for each page/image is exactly the same:
