@@ -20,9 +20,9 @@ We will use this [sample_pdf](../assets/sample_pdf.pdf) to illustrate the steps.
 3. Update the resolution to be 600 pixel/inch, notice that *Width* and *Height* will automatically change with the Resolution, to become `5100px` and `6600px`, leave these values for now. Also update the `Open page as` field to be from `Layers` to `Images`. Then click *Import* button.
 
 <p float="left">
-<img src="../assets/convert_pdf_to_600ppi_tiff/import_step1.jpg" alt="import_step1" width="260" />
-<img src="../assets/convert_pdf_to_600ppi_tiff/import_step2.jpg" alt="import_step2" width="260" />
-<img src="../assets/convert_pdf_to_600ppi_tiff/import_step3.jpg" alt="import_step3" width="260" />
+<img src="/assets/convert_pdf_to_600ppi_tiff/import_step1.jpg" alt="import_step1" width="260" />
+<img src="/assets/convert_pdf_to_600ppi_tiff/import_step2.jpg" alt="import_step2" width="260" />
+<img src="/assets/convert_pdf_to_600ppi_tiff/import_step3.jpg" alt="import_step3" width="260" />
 </p>
 <div style="clear: both;"></div>
 
