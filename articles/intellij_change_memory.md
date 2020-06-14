@@ -1,13 +1,13 @@
 # IntelliJ Change Memory Setting
 
-There're two ways to change Memory Settings for IntelliJ:
+There're two ways to change memory heap Settings for IntelliJ:
 
 1. Change through IntelliJ directly, or
-2. Using JetBrain toolbox
+2. Using JetBrain Toolbox
 
 ## Change through IntelliJ directly
 
-Follow the following official doc to change memory heap directly, notice that it's recommended to first update IntelliJ to latest version, to make steps simple:
+Follow the following official doc to change memory heap directly, notice that it's recommended to first update IntelliJ to latest version, to make steps simpler:
 https://www.jetbrains.com/help/idea/increasing-memory-heap.html
 
 ## Using JetBrain toolbox
@@ -23,14 +23,14 @@ JetBrain Toolbox app makes managing JetBrains tools almost effortless. It can he
 After download and install Toolbox, click the gear button corresponding to IntelliJ, then click `Settings`
 
 <p float="left">
-<img src="../assets/intellij/jbt-settings.png" alt="jbt-settings.png" width="420" />
+<img src="../assets/intellij/jbt-settings.png" alt="jbt-settings.png" width="360" />
 </p>
 <div style="clear: both;"></div>
 
 At the `Settings` page, click to expand the `configuration` section. Then update the `Maximum Heap Size` to desired value
 
 <p float="left">
-<img src="../assets/intellij/jbt-configs.png" alt="jbt-configs.png" width="420" />
+<img src="../assets/intellij/jbt-configs.png" alt="jbt-configs.png" width="360" />
 </p>
 <div style="clear: both;"></div>
 
