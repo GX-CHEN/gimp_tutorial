@@ -23,14 +23,14 @@ JetBrain Toolbox app makes managing JetBrains tools almost effortless. It can he
 After download and install Toolbox, click the gear button corresponding to IntelliJ, then click `Settings`
 
 <p float="left">
-<img src="../assets/intellij/jbt-settings.png" alt="jbt-settings.png" width="800" />
+<img src="../assets/intellij/jbt-settings.png" alt="jbt-settings.png" width="420" />
 </p>
 <div style="clear: both;"></div>
 
 At the `Settings` page, click to expand the `configuration` section. Then update the `Maximum Heap Size` to desired value
 
 <p float="left">
-<img src="../assets/intellij/jbt-configs.png" alt="jbt-configs.png" width="800" />
+<img src="../assets/intellij/jbt-configs.png" alt="jbt-configs.png" width="420" />
 </p>
 <div style="clear: both;"></div>
 
